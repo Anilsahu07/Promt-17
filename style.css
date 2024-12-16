@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: poppins;
+}
+
+.form >h1{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 900;
+}
+
+
+.form{
+    width: 40%;
+    background: url(desk-3076954_1280.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.inputs{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;
+}
+
+.input1{
+    display: flex;
+    flex-direction: column ;
+}
+
+.input1 label{
+    font-size: 13px;
+    font-weight: 600;
+    color: rgb(63, 62, 62);
+}
+
+.input1 textarea{
+    height: 50px;
+    background-color: transparent;
+    border: 2px solid rgb(221, 98, 10);
+}
+
+.input1 input{
+    height: 30px;
+    width: 50%;
+    margin: 0 auto;
+    background-color: transparent;
+    border: 1px solid rgb(203, 21, 21);
+}
+
+.input1 p{
+    font-size: 11px;
+    color: red;
+    font-weight: 500;
+}
+
+.button button{
+    padding: 12px 40px;
+    font-family: josefin sans;
+    font-size: 13px;
+    border: none;
+    background-color: green;
+    color: white;
+    border-radius: 8px;
+}
+
+button:hover{
+    background-color: rgb(39, 90, 218);
+}
